@@ -158,19 +158,8 @@ If asked about unrelated topics, the AI will politely redirect the conversation.
 
 ## Development
 
-### File Structure
 
-```
-revolt-voice-chat/
-├── server.js              # Main Express server with WebSocket
-├── package.json           # Project dependencies and scripts
-├── .env                   # Environment variables
-├── README.md             # This file
-└── public/
-    ├── index.html        # Main HTML interface
-    ├── styles.css        # CSS styles
-    └── app.js            # Frontend JavaScript
-```
+
 
 ### Key Components
 
@@ -204,9 +193,3 @@ For issues and questions:
 3. Check browser console for error messages
 
 ---
-
-**Demo**: Create a 30-60 second screen recording showing:
-- Natural conversation flow
-- Interruption functionality working
-- Low latency responses
-- Overall user experience

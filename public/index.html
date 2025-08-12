@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talk to Rev - Revolt Motors Voice Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-section">
+                <h1>Talk to Rev</h1>
+                <p>Revolt Motors Voice Assistant</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="chat-interface">
+                <div class="status-indicator" id="statusIndicator">
+                    <div class="status-dot" id="statusDot"></div>
+                    <span id="statusText">Click to start voice chat</span>
+                </div>
+
+                <div class="voice-controls">
+                    <button class="voice-btn" id="voiceBtn">
+                        <div class="mic-icon" id="micIcon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2C10.3431 2 9 3.34315 9 5V12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12V5C15 3.34315 13.6569 2 12 2Z" fill="currentColor"/>
+                                <path d="M19 10V12C19 16.4183 15.4183 20 11 20H10V22H14C14.5523 22 15 22.4477 15 23C15 23.5523 14.5523 24 14 24H10C9.44772 24 9 23.5523 9 23C9 22.4477 9.44772 22 10 22H11C14.3137 22 17 19.3137 17 16V12C17 11.4477 17.4477 11 18 11C18.5523 11 19 11.4477 19 12Z" fill="currentColor"/>
+                                <path d="M5 10V12C5 16.4183 8.58172 20 13 20H14V22H10C9.44772 22 9 22.4477 9 23C9 23.5523 9.44772 24 10 24H14C14.5523 24 15 23.5523 15 23C15 22.4477 14.5523 22 14 22H13C9.68629 22 7 19.3137 7 16V12C7 11.4477 6.55228 11 6 11C5.44772 11 5 11.4477 5 12Z" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <span class="btn-text" id="btnText">Start Talking</span>
+                    </button>
+                    
+                    <button class="interrupt-btn" id="interruptBtn" disabled>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="6" y="6" width="12" height="12" fill="currentColor"/>
+                        </svg>
+                        Interrupt
+                    </button>
+                </div>
+
+                <div class="transcript-container">
+                    <div class="transcript" id="transcript">
+                        <div class="transcript-message system">
+                            Welcome! I'm Rev, your Revolt Motors voice assistant. Click "Start Talking" to begin our conversation about electric motorcycles and sustainable transportation.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="volume-indicator" id="volumeIndicator">
+                    <div class="volume-bars">
+                        <div class="volume-bar"></div>
+                        <div class="volume-bar"></div>
+                        <div class="volume-bar"></div>
+                        <div class="volume-bar"></div>
+                        <div class="volume-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Powered by Revolt Motors & Gemini Live API</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

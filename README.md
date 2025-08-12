@@ -1,6 +1,10 @@
-# Revolt Voice Chat - Gemini Live API Implementation
+# 🏍️ Revolt Motors Voice Chat - Gemini Live API Implementation
 
-A real-time, conversational voice interface built with the Gemini Live API, replicating the functionality of the Revolt Motors chatbot.
+![Revolt Motors Voice Chat](https://img.shields.io/badge/Voice%20Chat-Revolt%20Motors-blue?style=for-the-badge&logo=google)
+![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=for-the-badge&logo=nodedotjs)
+![Gemini API](https://img.shields.io/badge/Gemini%20Live%20API-Powered-orange?style=for-the-badge&logo=google)
+
+A real-time, conversational voice interface built with the Gemini Live API, replicating the functionality of the Revolt Motors chatbot with full voice-to-voice interaction, interruption support, and comprehensive electric motorcycle knowledge.
 
 ## Features
 

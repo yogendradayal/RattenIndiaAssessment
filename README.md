@@ -7,7 +7,7 @@
 A real-time, conversational voice interface built with the Gemini Live API, replicating the functionality of the Revolt Motors chatbot with full voice-to-voice interaction, interruption support, and comprehensive electric motorcycle knowledge.
 
 ## Demo Video
-![Demo Video](public/demo.mp4)
+(https://github.com/user-attachments/assets/ac2a9422-22bc-44b4-937b-d7e08f51101a)
 
 
 ## Features
